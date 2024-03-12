@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Grid</title>
+  <style>
+    body {
+        background-color:rgba(0, 30, 62, 0.715);
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Increased minmax width */
+      gap: 20px; /* Increased gap */
+      background-color: rgba(0, 30, 62, 0.715);
+    }
+
+    .image-grid-item {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    .image-grid-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .image-number {
+      position: absolute;
+      bottom: 10px;
+      right: 10px; 
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 8px; 
+      border-radius: 5px; 
+    }
+  </style>
+</head>
+<body>
+
+    <div class="image-grid">
+        <div class="image-grid-item">
+            <img src="./image0.jpeg" alt="Image 1">
+            <div class="image-number">0</div>
+          </div>
+        <div class="image-grid-item">
+          <img src="./image1.jpeg" alt="Image 1">
+          <div class="image-number">1</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image2.jpeg" alt="Image 2">
+          <div class="image-number">2</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image3.jpeg" alt="Image 2">
+          <div class="image-number">3</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image4.jpeg" alt="Image 2">
+          <div class="image-number">4</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image5.jpeg" alt="Image 2">
+          <div class="image-number">5</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image6.jpeg" alt="Image 2">
+          <div class="image-number">6</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image7.jpeg" alt="Image 2">
+          <div class="image-number">7</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image8.jpeg" alt="Image 2">
+          <div class="image-number">8</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image9.jpeg" alt="Image 2">
+          <div class="image-number">9</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image10.jpeg" alt="Image 2">
+          <div class="image-number">10</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image11.jpeg" alt="Image 2">
+          <div class="image-number">11</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image12.jpeg" alt="Image 2">
+          <div class="image-number">12</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image13.jpeg" alt="Image 2">
+          <div class="image-number">13</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image14.jpeg" alt="Image 2">
+          <div class="image-number">14</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image15.jpeg" alt="Image 2">
+          <div class="image-number">15</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image16.jpeg" alt="Image 2">
+          <div class="image-number">16</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image17.jpeg" alt="Image 2">
+          <div class="image-number">17</div>
+        </div>
+        <div class="image-grid-item">
+          <img src="./image18.jpeg" alt="Image 2">
+          <div class="image-number">18</div>
+        </div>
+        <div class="image-grid-item">
+            <img src="./image19.jpeg" alt="Image 2">
+            <div class="image-number">19</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image20.jpeg" alt="Image 2">
+            <div class="image-number">20</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image21.jpeg" alt="Image 2">
+            <div class="image-number">21</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image22.jpeg" alt="Image 2">
+            <div class="image-number">22</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image23.jpeg" alt="Image 2">
+            <div class="image-number">23</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image24.jpeg" alt="Image 2">
+            <div class="image-number">24</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image25.jpeg" alt="Image 2">
+            <div class="image-number">25</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image26.jpeg" alt="Image 2">
+            <div class="image-number">26</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image27.jpeg" alt="Image 2">
+            <div class="image-number">27</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image28.jpeg" alt="Image 2">
+            <div class="image-number">28</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image29.jpeg" alt="Image 2">
+            <div class="image-number">29</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image30.jpeg" alt="Image 2">
+            <div class="image-number">30</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image31.jpeg" alt="Image 2">
+            <div class="image-number">31</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image32.jpeg" alt="Image 2">
+            <div class="image-number">32</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image33.jpeg" alt="Image 2">
+            <div class="image-number">33</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image34.jpeg" alt="Image 2">
+            <div class="image-number">34</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image35.jpeg" alt="Image 2">
+            <div class="image-number">35</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image36.jpeg" alt="Image 2">
+            <div class="image-number">36</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image37.jpeg" alt="Image 2">
+            <div class="image-number">37</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image38.jpeg" alt="Image 2">
+            <div class="image-number">38</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image39.jpeg" alt="Image 2">
+            <div class="image-number">39</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image40.jpeg" alt="Image 2">
+            <div class="image-number">40</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image41.jpeg" alt="Image 2">
+            <div class="image-number">41</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image42.jpeg" alt="Image 2">
+            <div class="image-number">42</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image43.jpeg" alt="Image 2">
+            <div class="image-number">43</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image44.jpeg" alt="Image 2">
+            <div class="image-number">44</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image45.jpeg" alt="Image 2">
+            <div class="image-number">45</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image46.jpeg" alt="Image 2">
+            <div class="image-number">46</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image47.jpeg" alt="Image 2">
+            <div class="image-number">47</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image48.jpeg" alt="Image 2">
+            <div class="image-number">48</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image49.jpeg" alt="Image 2">
+            <div class="image-number">49</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image50.jpeg" alt="Image 2">
+            <div class="image-number">50</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image51.jpeg" alt="Image 2">
+            <div class="image-number">51</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image52.jpeg" alt="Image 2">
+            <div class="image-number">52</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image53.jpeg" alt="Image 2">
+            <div class="image-number">53</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image54.jpeg" alt="Image 2">
+            <div class="image-number">54</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image55.jpeg" alt="Image 2">
+            <div class="image-number">55</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image56.jpeg" alt="Image 2">
+            <div class="image-number">56</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image57.jpeg" alt="Image 2">
+            <div class="image-number">57</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image58.jpeg" alt="Image 2">
+            <div class="image-number">58</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image59.jpeg" alt="Image 2">
+            <div class="image-number">59</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image60.jpeg" alt="Image 2">
+            <div class="image-number">60</div>
+          </div>
+          <div class="image-grid-item">
+            <img src="./image61.jpeg" alt="Image 2">
+            <div class="image-number">61</div>
+          </div>
+
+      </div>
+
+</body>
+</html>
